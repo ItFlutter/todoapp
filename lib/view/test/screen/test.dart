@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/controller/testcontroller.dart';
-import 'package:to_do_app/core/class/notificationapi.dart';
+import 'package:to_do_app/view/test/controller/test_controller.dart';
+import 'package:to_do_app/core/class/notification_api.dart';
 
-import '../../core/constant/color.dart';
+import '../../../core/constant/color.dart';
 
 class Test extends StatelessWidget {
   const Test({Key? key}) : super(key: key);

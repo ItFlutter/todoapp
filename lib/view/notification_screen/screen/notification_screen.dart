@@ -3,9 +3,9 @@ import 'package:get/get.dart';
 import 'package:to_do_app/core/constant/color.dart';
 import 'package:to_do_app/core/constant/dimensions_screen.dart';
 import 'package:to_do_app/core/constant/routes.dart';
-import 'package:to_do_app/view/widget/notificationscreen/customiconandtext.dart';
-import 'package:to_do_app/view/widget/notificationscreen/customtextnotification.dart';
-import 'package:to_do_app/view/widget/notificationscreen/customtitleandsubtitle.dart';
+import 'package:to_do_app/view/notification_screen/widget/custom_icon_and_text.dart';
+import 'package:to_do_app/view/notification_screen/widget/custom_text_notification.dart';
+import 'package:to_do_app/view/notification_screen/widget/custom_title_and_subtitle.dart';
 
 class NotificationScreen extends StatelessWidget {
   final String payload;

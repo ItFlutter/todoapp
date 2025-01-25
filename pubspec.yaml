@@ -28,28 +28,28 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cupertino_icons: ^1.0.2
-  date_picker_timeline: ^1.2.5
+  date_picker_timeline: ^1.2.6
   flutter:
     sdk: flutter
-  flutter_local_notifications: ^13.0.0
+  flutter_local_notifications: ^17.2.3
   flutter_native_timezone: ^2.0.0
-  flutter_screenutil: ^5.7.0
-  flutter_svg: ^1.1.6
-  geocoding: ^2.1.1
-  geolocator: ^10.1.0
-  get: ^4.3.8
-  intl: ^0.18.1
-  lottie: ^1.4.2
-  sqflite: ^2.0.3+1
-  shared_preferences: ^2.0.15
-  rxdart: ^0.27.7
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.10+1
+  geocoding: ^3.0.0
+  geolocator: ^13.0.1
+  get: ^4.6.6
+  intl: ^0.19.0
+  lottie: ^3.1.2
+  sqflite: ^2.3.3+2
+  shared_preferences: ^2.3.2
+  rxdart: ^0.28.0
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  flutter_launcher_icons: ^0.11.0
+  flutter_launcher_icons: ^0.14.1
 flutter_icons:
   android: "launcher_icon"
   ios: true

@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:to_do_app/controller/addtaskcontroller.dart';
-import 'package:to_do_app/core/class/handlingdataview.dart';
+import 'package:to_do_app/view/add_task/controller/add_task_controller.dart';
+import 'package:to_do_app/core/class/handling_data_view.dart';
 import 'package:to_do_app/core/constant/color.dart';
 import 'package:to_do_app/core/constant/dimensions_screen.dart';
 import 'package:to_do_app/core/constant/image_asset.dart';
-import 'package:to_do_app/core/functions/validinput.dart';
-import 'package:to_do_app/core/shared/custom_button.dart';
-import 'package:to_do_app/view/widget/addtask/customdropdownbutton.dart';
-import 'package:to_do_app/view/widget/addtask/customtext.dart';
-import 'package:to_do_app/view/widget/addtask/customtextformfield.dart';
+import 'package:to_do_app/core/functions/valid_input.dart';
+import 'package:to_do_app/view/widget/shared/custom_button.dart';
+import 'package:to_do_app/view/add_task/widget/custom_drop_down_button.dart';
+import 'package:to_do_app/view/add_task/widget/custom_text.dart';
+import 'package:to_do_app/view/add_task/widget/custom_text_form_field.dart';
 
-import '../widget/homepage/custom_avatar.dart';
+import '../../home_page/widget/custom_avatar.dart';
 
 class AddTask extends StatelessWidget {
   const AddTask({Key? key}) : super(key: key);

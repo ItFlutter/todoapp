@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/controller/homepage_controller.dart';
-import 'package:to_do_app/core/class/handlingdataview.dart';
-import 'package:to_do_app/core/class/notificationapi.dart';
+import 'package:to_do_app/view/home_page/controller/home_page_controller.dart';
+import 'package:to_do_app/core/class/handling_data_view.dart';
+import 'package:to_do_app/core/class/notification_api.dart';
 import 'package:to_do_app/core/constant/color.dart';
 import 'package:to_do_app/core/constant/dimensions_screen.dart';
 import 'package:to_do_app/core/constant/image_asset.dart';
 import 'package:to_do_app/core/constant/routes.dart';
-import 'package:to_do_app/core/shared/custom_button.dart';
-import 'package:to_do_app/view/widget/homepage/custom_avatar.dart';
-import 'package:to_do_app/view/widget/homepage/custom_body_no_tasks.dart';
-import 'package:to_do_app/view/widget/homepage/custombuttonbottomsheet.dart';
-import 'package:to_do_app/view/widget/homepage/customstatustask.dart';
-import 'package:to_do_app/view/widget/homepage/customtask.dart';
-import '../../core/constant/app_theme.dart';
-import '../widget/homepage/custom_date_now.dart';
-import '../widget/homepage/custom_date_picker.dart';
+import 'package:to_do_app/view/widget/shared/custom_button.dart';
+import 'package:to_do_app/view/home_page/widget/custom_avatar.dart';
+import 'package:to_do_app/view/home_page/widget/custom_body_no_tasks.dart';
+import 'package:to_do_app/view/home_page/widget/custom_button_bottom_sheet.dart';
+import 'package:to_do_app/view/home_page/widget/custom_status_task.dart';
+import 'package:to_do_app/view/home_page/widget/custom_task.dart';
+import '../../../core/constant/app_theme.dart';
+import '../widget/custom_date_now.dart';
+import '../widget/custom_date_picker.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:to_do_app/core/class/sqldb.dart';
-import 'package:to_do_app/core/class/statuscode.dart';
+import 'package:to_do_app/core/class/sql_db.dart';
+import 'package:to_do_app/core/class/status_code.dart';
 import 'package:to_do_app/core/constant/app_theme.dart';
 import 'package:to_do_app/core/constant/color.dart';
 import 'package:to_do_app/core/sevices/sevices.dart';
-import 'package:to_do_app/data/model/taskmodel.dart';
+import 'package:to_do_app/model/task_model.dart';
 import 'dart:math';
 
 class HomePageController extends GetxController {

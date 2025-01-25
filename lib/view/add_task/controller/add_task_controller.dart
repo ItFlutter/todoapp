@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/controller/homepage_controller.dart';
-import 'package:to_do_app/core/class/notificationapi.dart';
-import 'package:to_do_app/core/class/sqldb.dart';
-import 'package:to_do_app/core/class/statuscode.dart';
+import 'package:to_do_app/view/home_page/controller/home_page_controller.dart';
+import 'package:to_do_app/core/class/notification_api.dart';
+import 'package:to_do_app/core/class/sql_db.dart';
+import 'package:to_do_app/core/class/status_code.dart';
 import 'package:timezone/timezone.dart' as tz;
 
 class AddTaskController extends GetxController {

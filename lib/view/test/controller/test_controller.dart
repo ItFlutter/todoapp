@@ -2,11 +2,11 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_native_timezone/flutter_native_timezone.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/core/class/notificationapi.dart';
+import 'package:to_do_app/core/class/notification_api.dart';
 import 'package:timezone/timezone.dart' as tz;
 
 class TestController extends GetxController {
-  Time time = Time(9, 30, 59);
+  // Time time = Time(9, 30, 59);
 
   getFlutterNativeTimezone() async {
     // final String currentTimeZone =

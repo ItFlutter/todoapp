@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 import 'package:to_do_app/core/constant/routes.dart';
-import 'package:to_do_app/view/screen/addtask.dart';
-import 'package:to_do_app/view/screen/homepage.dart';
-import 'package:to_do_app/view/screen/notificationscreen.dart';
-import 'package:to_do_app/view/screen/test.dart';
+import 'package:to_do_app/view/add_task/screen/add_task.dart';
+import 'package:to_do_app/view/home_page/screen/home_page.dart';
+import 'package:to_do_app/view/notification_screen/screen/notification_screen.dart';
+import 'package:to_do_app/view/test/screen/test.dart';
 
 List<GetPage<dynamic>>? routes = [
   //================================Homepage============================

@@ -1,12 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/controller/themecontroller.dart';
+import 'package:to_do_app/view/theme/controller/theme_controller.dart';
 import 'package:to_do_app/core/sevices/sevices.dart';
-
 import 'bindings/initial_bindings.dart';
-import 'core/constant/app_theme.dart';
 import 'routes.dart';
 
 void main() async {

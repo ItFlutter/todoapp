@@ -3,12 +3,12 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_native_timezone/flutter_native_timezone.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:to_do_app/core/class/notificationapi.dart';
+import 'package:to_do_app/core/class/notification_api.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:to_do_app/core/constant/routes.dart';
-import 'package:to_do_app/core/functions/requestperlocation.dart';
+import 'package:to_do_app/core/functions/request_per_location.dart';
 import 'package:timezone/timezone.dart' as tz;
-import 'package:to_do_app/view/screen/notificationscreen.dart';
+import 'package:to_do_app/view/notification_screen/screen/notification_screen.dart';
 
 class MyServices extends GetxService {
   late SharedPreferences sharedPreferences;

@@ -3,7 +3,7 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:to_do_app/core/constant/color.dart';
 
-import '../constant/dimensions_screen.dart';
+import '../../../core/constant/dimensions_screen.dart';
 
 class CustomButton extends StatelessWidget {
   final void Function() onPressed;

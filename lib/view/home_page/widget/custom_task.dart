@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_app/core/constant/color.dart';
-import 'package:to_do_app/view/widget/homepage/customstartandendtime.dart';
+import 'package:to_do_app/view/home_page/widget/custom_start_and_end_time.dart';
 
 class CustomTask extends StatelessWidget {
   final BoxConstraints constraints;

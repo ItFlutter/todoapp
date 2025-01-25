@@ -2,8 +2,7 @@ import 'package:date_picker_timeline/date_picker_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/controller/homepage_controller.dart';
-
+import 'package:to_do_app/view/home_page/controller/home_page_controller.dart';
 import '../../../core/constant/color.dart';
 import '../../../core/constant/dimensions_screen.dart';
 

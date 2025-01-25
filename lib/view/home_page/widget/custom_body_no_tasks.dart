@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/controller/homepage_controller.dart';
+import 'package:to_do_app/view/home_page/controller/home_page_controller.dart';
 import 'package:to_do_app/core/constant/dimensions_screen.dart';
 
 import '../../../core/constant/color.dart';
